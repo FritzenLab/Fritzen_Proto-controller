@@ -8,8 +8,8 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -257,18 +257,6 @@
 <text x="64.643" y="5.334" size="1.27" layer="22" ratio="14" rot="MR180">A3</text>
 <text x="69.088" y="6.477" size="1.27" layer="22" ratio="14" rot="MR270">A4</text>
 <text x="69.723" y="5.334" size="1.27" layer="22" ratio="14" rot="MR180">A5</text>
-<text x="72.644" y="31.369" size="1.27" layer="22" ratio="14" rot="MR270">ICSP</text>
-<text x="70.739" y="30.226" size="1.016" layer="22" ratio="10" rot="MR0">6</text>
-<text x="70.866" y="27.051" size="1.016" layer="22" ratio="10" rot="MR0">5</text>
-<text x="61.976" y="30.607" size="1.016" layer="22" ratio="10" rot="MR0">2</text>
-<text x="61.849" y="27.305" size="1.016" layer="22" ratio="10" rot="MR0">1</text>
-<text x="57.023" y="28.956" size="1.27" layer="22" ratio="14" rot="MR180">DTR</text>
-<text x="56.769" y="29.21" size="1.27" layer="22" ratio="14" rot="MR270">Tx</text>
-<text x="52.959" y="26.924" size="1.27" layer="22" ratio="14" rot="MR90">Rx</text>
-<text x="49.911" y="26.924" size="1.27" layer="22" ratio="14" rot="MR90">5V</text>
-<text x="47.117" y="27.686" size="1.27" layer="22" ratio="14" rot="MR0">GND</text>
-<text x="47.879" y="29.083" size="0.6096" layer="21" ratio="14" rot="R270">Reset</text>
-<text x="48.514" y="29.083" size="0.6096" layer="22" ratio="14" rot="MR270">Reset</text>
 </plain>
 <libraries>
 <library name="rcl">

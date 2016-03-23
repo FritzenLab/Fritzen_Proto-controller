@@ -267,8 +267,6 @@
 <text x="52.959" y="26.924" size="1.27" layer="22" ratio="14" rot="MR90">Rx</text>
 <text x="49.911" y="26.924" size="1.27" layer="22" ratio="14" rot="MR90">5V</text>
 <text x="47.117" y="27.686" size="1.27" layer="22" ratio="14" rot="MR0">GND</text>
-<text x="47.879" y="29.083" size="0.6096" layer="21" ratio="14" rot="R270">Reset</text>
-<text x="48.514" y="29.083" size="0.6096" layer="22" ratio="14" rot="MR270">Reset</text>
 </plain>
 <libraries>
 <library name="rcl">

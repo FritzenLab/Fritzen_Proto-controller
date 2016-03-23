@@ -231,44 +231,6 @@
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="20" curve="-90"/>
 <wire x1="2.54" y1="33.02" x2="0" y2="30.48" width="0.254" layer="20" curve="90"/>
 <text x="10.033" y="8.636" size="1.016" layer="21" ratio="10">D1</text>
-<text x="2.667" y="4.191" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">7</text>
-<text x="5.461" y="4.191" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">6</text>
-<text x="8.001" y="4.191" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">5</text>
-<text x="10.414" y="4.191" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">4</text>
-<text x="13.081" y="4.191" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">3</text>
-<text x="15.748" y="4.318" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">2</text>
-<text x="18.415" y="4.318" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">1</text>
-<text x="20.701" y="4.318" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0">0</text>
-<text x="21.844" y="5.207" size="0.8128" layer="22" ratio="14" rot="MR180">Vin</text>
-<text x="25.4" y="5.08" size="0.8128" layer="22" ratio="14" rot="MR180">GND</text>
-<text x="31.115" y="4.191" size="0.8128" layer="22" ratio="14" rot="MR0">5V</text>
-<text x="34.163" y="4.826" size="0.6096" layer="22" ratio="14" rot="MR180">Reset</text>
-<text x="38.227" y="4.191" size="0.8128" layer="22" font="vector" ratio="12" rot="MR0">8</text>
-<text x="41.148" y="4.191" size="0.8128" layer="22" font="vector" ratio="12" rot="MR0">9</text>
-<text x="42.164" y="4.953" size="0.8128" layer="22" font="vector" ratio="12" rot="MR180">10</text>
-<text x="46.101" y="4.953" size="0.6096" layer="22" font="vector" ratio="12" rot="MR0">11</text>
-<text x="47.371" y="4.953" size="0.8128" layer="22" font="vector" ratio="12" rot="MR180">12</text>
-<text x="49.784" y="4.953" size="0.8128" layer="22" font="vector" ratio="12" rot="MR180">13</text>
-<text x="52.324" y="4.826" size="0.6096" layer="22" ratio="14" rot="MR180">GND</text>
-<text x="56.896" y="4.191" size="0.6096" layer="22" ratio="14" rot="MR0">AREF</text>
-<text x="58.928" y="6.35" size="1.27" layer="22" ratio="14" rot="MR270">A0</text>
-<text x="61.595" y="6.35" size="1.27" layer="22" ratio="14" rot="MR270">A1</text>
-<text x="63.881" y="6.477" size="1.27" layer="22" ratio="14" rot="MR270">A2</text>
-<text x="64.643" y="5.334" size="1.27" layer="22" ratio="14" rot="MR180">A3</text>
-<text x="69.088" y="6.477" size="1.27" layer="22" ratio="14" rot="MR270">A4</text>
-<text x="69.723" y="5.334" size="1.27" layer="22" ratio="14" rot="MR180">A5</text>
-<text x="72.644" y="31.369" size="1.27" layer="22" ratio="14" rot="MR270">ICSP</text>
-<text x="70.739" y="30.226" size="1.016" layer="22" ratio="10" rot="MR0">6</text>
-<text x="70.866" y="27.051" size="1.016" layer="22" ratio="10" rot="MR0">5</text>
-<text x="61.976" y="30.607" size="1.016" layer="22" ratio="10" rot="MR0">2</text>
-<text x="61.849" y="27.305" size="1.016" layer="22" ratio="10" rot="MR0">1</text>
-<text x="57.023" y="28.956" size="1.27" layer="22" ratio="14" rot="MR180">DTR</text>
-<text x="56.769" y="29.21" size="1.27" layer="22" ratio="14" rot="MR270">Tx</text>
-<text x="52.959" y="26.924" size="1.27" layer="22" ratio="14" rot="MR90">Rx</text>
-<text x="49.911" y="26.924" size="1.27" layer="22" ratio="14" rot="MR90">5V</text>
-<text x="47.117" y="27.686" size="1.27" layer="22" ratio="14" rot="MR0">GND</text>
-<text x="47.879" y="29.083" size="0.6096" layer="21" ratio="14" rot="R270">Reset</text>
-<text x="48.514" y="29.083" size="0.6096" layer="22" ratio="14" rot="MR270">Reset</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1189,8 +1151,7 @@ design rules under a new name.</description>
 <wire x1="66.4464" y1="13.4112" x2="65.4304" y2="14.4272" width="0.254" layer="1"/>
 <wire x1="65.4304" y1="14.4272" x2="60.96" y2="18.8976" width="0.254" layer="1"/>
 <wire x1="66.4464" y1="13.4112" x2="66.3194" y2="13.4112" width="0.254" layer="1"/>
-<wire x1="68.4784" y1="17.4752" x2="68.4784" y2="26.416" width="0.254" layer="1"/>
-<wire x1="68.4784" y1="26.416" x2="68.4784" y2="27.8384" width="0.254" layer="1"/>
+<wire x1="68.4784" y1="17.4752" x2="68.4784" y2="27.8384" width="0.254" layer="1"/>
 <wire x1="65.4304" y1="14.4272" x2="68.4784" y2="17.4752" width="0.254" layer="1"/>
 <wire x1="68.4784" y1="27.8384" x2="68.58" y2="27.94" width="0.254" layer="1"/>
 <wire x1="47.3456" y1="21.1328" x2="45.72" y2="22.7584" width="0.254" layer="16"/>
@@ -1210,23 +1171,6 @@ design rules under a new name.</description>
 <wire x1="66.4464" y1="6.9088" x2="66.3194" y2="6.9088" width="0.254" layer="16"/>
 <wire x1="66.4464" y1="13.4112" x2="66.3194" y2="13.4112" width="0.254" layer="16"/>
 <via x="47.1424" y="20.5232" extent="1-16" drill="0.3048" shape="octagon"/>
-<contactref element="JP5" pad="5"/>
-<wire x1="48.26" y1="30.48" x2="48.26" y2="31.115" width="0.254" layer="16"/>
-<wire x1="48.26" y1="31.115" x2="49.022" y2="31.877" width="0.254" layer="16"/>
-<wire x1="49.022" y1="31.877" x2="51.435" y2="31.877" width="0.254" layer="16"/>
-<wire x1="51.435" y1="31.877" x2="52.07" y2="31.242" width="0.254" layer="16"/>
-<wire x1="52.07" y1="31.242" x2="52.07" y2="29.718" width="0.254" layer="16"/>
-<via x="60.706" y="29.718" extent="1-16" drill="0.6" shape="octagon"/>
-<wire x1="52.07" y1="29.718" x2="52.578" y2="29.21" width="0.254" layer="16"/>
-<wire x1="52.578" y1="29.21" x2="60.198" y2="29.21" width="0.254" layer="16"/>
-<wire x1="60.198" y1="29.21" x2="60.706" y2="29.718" width="0.254" layer="16"/>
-<wire x1="60.706" y1="29.718" x2="61.976" y2="29.718" width="0.254" layer="1"/>
-<wire x1="61.976" y1="29.718" x2="62.484" y2="29.21" width="0.254" layer="1"/>
-<wire x1="62.484" y1="29.21" x2="64.516" y2="29.21" width="0.254" layer="1"/>
-<wire x1="64.516" y1="29.21" x2="64.77" y2="28.956" width="0.254" layer="1"/>
-<wire x1="64.77" y1="28.956" x2="64.77" y2="27.178" width="0.254" layer="1"/>
-<wire x1="64.77" y1="27.178" x2="65.532" y2="26.416" width="0.254" layer="1"/>
-<wire x1="65.532" y1="26.416" x2="68.4784" y2="26.416" width="0.254" layer="1"/>
 </signal>
 <signal name="VIN" class="1">
 <contactref element="D1" pad="C"/>
@@ -1731,6 +1675,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1">
 <contactref element="JP3" pad="2"/>
+</signal>
+<signal name="N$8">
+<contactref element="JP5" pad="5"/>
 </signal>
 </signals>
 </board>
